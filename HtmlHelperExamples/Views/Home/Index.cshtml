@@ -1,0 +1,7 @@
+﻿@using HtmlHelperExamples.HtmlHelpers
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@Html.OutputName("Patrick")
+@Html.Input().SelectorFor("MyPropertyName", new[] { "Item1","Item2"})
